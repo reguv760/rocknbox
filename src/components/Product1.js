@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import './Products.css';
 
 const ProductsCSS = styled.div`
 	width:96%;
@@ -20,6 +19,7 @@ const TheProductCSS = styled.div`
 const ProductIMG = styled.div`
 	width:40rem;
 	height:25rem;
+	margin:1rem;
 	background-color:#993300;
 `
 
@@ -30,6 +30,17 @@ const ProductsDesc = styled.div`
 	width:100%;
 	height:100%;
 	background-color:#3399cc;
+`
+
+const ProductBuyButton = styled.div`
+	background-color:#222;
+	border-radius:0.5rem;
+	width:12rem;
+	margin:1rem;
+	padding:1rem;
+	font-size:1.6rem;
+	font-weight: bold;
+	letter-spacing: 0.025em;
 `
 
 const Product1 = () =>
@@ -47,7 +58,9 @@ const Product1 = () =>
 					<li>Item #3</li>
 				</ul>
 
-				<a href="#"><div className="product__buyButton">purchase now!</div></a>
+				<a href="#">
+					<ProductBuyButton>purchase now!</ProductBuyButton>
+				</a>
 
 			</ProductsDesc>
 		</TheProductCSS>

@@ -13,9 +13,9 @@ class App extends Component
     	<div className="mainContainer">
 	    	<Navigation/>
 
-			<Container/>
+  			<Container/>
 
-			<Footer/>
+  			<Footer/>
 		</div>
     );
   }

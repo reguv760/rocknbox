@@ -12,6 +12,7 @@ const ProductsCSS = styled.div`
 const TheProductCSS = styled.div`
 	display:flex;
 	flex-flow:row nowrap;
+	align-items:center;
 	width:92%;
 	margin:4rem auto;
 	background-color:blue;
@@ -21,6 +22,7 @@ const TheProductCSS = styled.div`
 const ProductIMG = styled.div`
 	width:40rem;
 	height:25rem;
+	margin:1rem;
 	background-color:#993300;
 `
 

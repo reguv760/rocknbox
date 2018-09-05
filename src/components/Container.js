@@ -5,6 +5,7 @@ import Product2 from './Product2';
 import Product3 from './Product3';
 import './Container.css';
 
+
 const ContainerCSS = styled.div`
 	display:flex;
 	flex-flow: column nowrap;
@@ -22,6 +23,7 @@ const Container = () =>
 			<section className="currentTheme">
 			</section>
 
+			
 			<section id="products" className="products">
 
 				<h2>AVAILABLE BOXES</h2>
@@ -31,7 +33,6 @@ const Container = () =>
 				<Product3/>
 				
 			</section>
-
 
 			<section id="FAQ" className="content">
 				<h2>FAQ</h2>

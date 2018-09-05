@@ -20,6 +20,7 @@ const TheProductCSS = styled.div`
 const ProductIMG = styled.div`
 	width:40rem;
 	height:25rem;
+	margin:1rem;
 	background-color:#993300;
 `
 
