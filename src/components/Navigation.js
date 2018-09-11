@@ -1,32 +1,31 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Navigation.css';
 //import { Switch, Route } from 'react-router-dom'
+import Login from './Login';
 
-const Navigation = () =>
-{
-  return (  	
-  	<nav>
-		<div class="logo"></div>
+const Navigation = () => {
+  return (
+    <nav>
+      <div class="logo" />
 
-		<div class="newsletter">
-			<h2>newsletter</h2>
-		</div>
+      <Login />
 
-		<ul class="menu">
-			<li><a>Link #1</a></li>
-			<li><a href='#products'>products</a></li>
-			<li><a href='#FAQ'>FAQ</a></li>
-			<li><a>Link #4</a></li>
-			<li><a>Link #5</a></li>
-		</ul>  
-
-		{ /* <Switch>
-			<Route exact path='/' component={Home}/>
-			<li><a href="#products">products</a></li>
-			<li><a href="#FAQ">FAQ</a></li>
-			<Route path='/login' component={login}/>
-	    </Switch> */ }
-	</nav>
+      <ul class="menu">
+        <li>
+          <a href="#products">products</a>
+        </li>
+        <li>
+          <a href="#FAQ">FAQ</a>
+        </li>
+        <li>
+          <a href="#About">About</a>
+        </li>
+        <li>
+          <a href="#Contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
   );
-}
+};
 export default Navigation;
