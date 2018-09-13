@@ -8,7 +8,7 @@ const ContainerCSS = styled.div`
   width: 100%;
   margin: 0 auto;
   min-height: 140rem;
-  background-color: #999;
+  background-color: #2bd1fc;
 `;
 
 const Container = () => {

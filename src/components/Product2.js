@@ -14,6 +14,7 @@ const TheProductCSS = styled.div`
   margin: 4rem auto;
   background-color: blue;
   min-height: 25rem;
+  border-radius: 0.5rem;
 `;
 
 const ProductIMG = styled.div`
@@ -29,7 +30,19 @@ const ProductsDesc = styled.div`
   line-height: 1.4em;
   width: 100%;
   height: 100%;
-  background-color: #3399cc;
+  color: #eee;
+`;
+
+const ProductBuyButton = styled.div`
+  color: #eee;
+  background-color: #d90287;
+  border-radius: 0.5rem;
+  width: 12rem;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 0.025em;
 `;
 
 const Product2 = () => {
@@ -54,7 +67,7 @@ const Product2 = () => {
           </ul>
 
           <a href="#">
-            <div className="product__buyButton">purchase now!</div>
+            <ProductBuyButton>purchase now!</ProductBuyButton>
           </a>
         </ProductsDesc>
       </TheProductCSS>

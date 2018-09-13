@@ -19,8 +19,8 @@
   width: 96%;
   margin: 0 auto;
   min-height: 60rem;
-  background-color: red;
 }
+
 .container .content .questionAnswer {
   width: 98%;
   margin: 1.5rem auto;
@@ -35,4 +35,15 @@
   line-height: 1.4em;
   width: 96%;
   margin: 0 auto;
+}
+
+.container .content .contact__grid {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.container .content .contact__grid .col {
+  width: 50%;
 }

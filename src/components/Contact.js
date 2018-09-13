@@ -19,37 +19,42 @@ const validate = value => ({
 //who we are page:::
 const Contact = () => {
   return (
-    <section id="Contact" class="about">
-      <h2>Contact Us!</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-        veritatis eius nihil possimus vel reprehenderit officia dignissimos,
-        maiores quod necessitatibus non quae, commodi, ad consequatur unde illum
-        eum minus quibusdam?
-      </p>
+    <section id="Contact" className="content">
+      <div className="contact__grid">
+        <div className="col">
+          <h2>Contact Us!</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+            veritatis eius nihil possimus vel reprehenderit officia dignissimos,
+            maiores quod necessitatibus non quae, commodi, ad consequatur unde
+            illum eum minus quibusdam?
+          </p>
 
-      <Form>
-        {formApi => (
-          <form onSubmit={formApi.submitForm} id="form1" className="mb-4">
-            <label htmlFor="hello">Hello World</label>
-            <Text field="hello" id="hello" validate={validate} />
-            <button type="submit" className="btn btn-primary">
-              Submit
-            </button>
-          </form>
-        )}
-      </Form>
-
-      <h2>Customer Support</h2>
-      <ul>
-        <li>Phone: 1-800-111-1111</li>
-        <li>
-          Email:{' '}
-          <a href="mailto:customersupport@rocknbox.com">
-            customersupport@rocknbox.com
-          </a>
-        </li>
-      </ul>
+          <Form>
+            {formApi => (
+              <form onSubmit={formApi.submitForm} id="form1" className="mb-4">
+                <label htmlFor="hello">Hello World</label>
+                <Text field="hello" id="hello" validate={validate} />
+                <button type="submit" className="btn btn-primary">
+                  Submit
+                </button>
+              </form>
+            )}
+          </Form>
+        </div>
+        <div className="col">
+          <h2>Customer Support</h2>
+          <ul>
+            <li>Phone: 1-800-111-1111</li>
+            <li>
+              Email:{' '}
+              <a href="mailto:customersupport@rocknbox.com">
+                customersupport@rocknbox.com
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
   );
 };

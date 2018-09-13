@@ -1,9 +1,9 @@
 import React from 'react';
 
 //who we are page:::
-const Contact = () => {
+const About = () => {
   return (
-    <section id="About" class="About">
+    <section id="About" className="content">
       <h2>Who are we?</h2>
 
       <p>
@@ -15,4 +15,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default About;

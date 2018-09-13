@@ -1,13 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navigation.css';
-//import { Switch, Route } from 'react-router-dom'
+import logo from './../assets/svg/rocknbox-logo.svg';
+
 import Login from './Login';
 
 const Navigation = () => {
   return (
     <nav>
-      <div class="logo" />
+      <div class="logo">
+        <img src={logo} />
+      </div>
 
       <Login />
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 const FAQ = () => {
   return (
-    <section id="FAQ" class="content">
+    <section id="FAQ" className="content">
       <h2>FAQ</h2>
 
       <div className="questionAnswer">
