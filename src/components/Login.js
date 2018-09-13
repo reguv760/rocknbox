@@ -3,7 +3,8 @@ import './login.css';
 
 const Login = () => {
   return (
-    <div>
+    <form className="login">
+      <p>Member Login:</p>
       <ul className="login">
         <li>
           <label className="color">Username:</label>
@@ -13,8 +14,12 @@ const Login = () => {
           <label className="color">Password:</label>
           <input type="Password" />
         </li>
+
+        <li className="login__button">
+          <button>Login</button>
+        </li>
       </ul>
-    </div>
+    </form>
   );
 };
 export default Login;

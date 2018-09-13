@@ -1,23 +1,37 @@
-ul.login {
+.login {
+  display: block;
+}
+.login p {
+  margin: 0.2rem 0;
+  padding: 0;
+  color: #eee;
+  font-size: 1.2rem;
+}
+.login ul.login {
   display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-around;
-  align-items: flex-end;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   margin: 0;
   padding: 0;
 }
-
-ul li {
+.login ul.login li {
   margin: 0;
   padding: 0;
 }
-
-ul li label.color {
-  color: #fff;
+.login ul.login li label.color {
+  font-size: 1.2rem;
+  color: #eee;
 }
-
-ul li input {
+.login ul.login li input {
   margin: 0.25rem;
-  width: 50%;
+  width: 60%;
+}
+.login ul.login li.login__button {
+  width: 100%;
+  text-align: right;
+}
+.login ul.login li.login__button button {
+  margin-right: 1.8rem;
 }

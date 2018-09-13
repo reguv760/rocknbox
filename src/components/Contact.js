@@ -83,6 +83,31 @@ const Contact = () => {
               </a>
             </li>
           </ul>
+
+          <h2>Legal</h2>
+          <p class="legal">
+            {' '}
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+            veritatis eius nihil possimus vel reprehenderit officia dignissimos,
+            maiores quod necessitatibus non quae, commodi, ad consequatur unde
+            illum eum minus quibusdam.
+          </p>
+
+          <p class="legal">
+            {' '}
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+            veritatis eius nihil possimus vel reprehenderit officia dignissimos,
+            maiores quod necessitatibus non quae, commodi, ad consequatur unde
+            illum eum minus quibusdam.
+          </p>
+
+          <p class="legal">
+            {' '}
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+            veritatis eius nihil possimus vel reprehenderit officia dignissimos,
+            maiores quod necessitatibus non quae, commodi, ad consequatur unde
+            illum eum minus quibusdam.
+          </p>
         </div>
       </div>
     </section>

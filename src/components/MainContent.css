@@ -144,3 +144,7 @@
   a:hover {
   color: #c04df9;
 }
+.container .content .contact__grid .customerSupport p.legal {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}

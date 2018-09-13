@@ -9,7 +9,7 @@ nav
 
 	display: grid;
 	grid-template-columns: 1fr 45rem; /*45rem = width of right hand area */
-	grid-template-rows: 6rem 1fr; /* 6rem = height of logo */
+	grid-template-rows: 8rem 1fr; /* 6rem = height of logo */
 	grid-template-areas:
 	'logo   	 	newsletter'
 	'logo 		menu';
