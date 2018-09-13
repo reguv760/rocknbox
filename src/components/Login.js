@@ -4,13 +4,13 @@ import './login.css';
 const Login = () => {
   return (
     <div>
-      <ul class="login">
+      <ul className="login">
         <li>
-          <label class="color">Username:</label>
+          <label className="color">Username:</label>
           <input type="text" />
         </li>
         <li>
-          <label class="color">Password:</label>
+          <label className="color">Password:</label>
           <input type="Password" />
         </li>
       </ul>

@@ -11,7 +11,7 @@ import './MainContent.css';
 
 const MainContent = () => {
   return (
-    <div class="container">
+    <div className="container">
       <section className="currentTheme" />
 
       <Products />

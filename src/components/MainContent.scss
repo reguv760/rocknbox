@@ -1,3 +1,5 @@
+@import './../css/_variables.scss';
+
 .container section
 {
 	padding-top: 8rem;
@@ -7,7 +9,14 @@
 	{
 	  font-size: 3.6rem;
 	  font-weight: bold;
-	  margin: 2rem 1rem;
+	  color:$spring-green;
+	  letter-spacing:0.025em;
+	}
+
+	& p 
+	{
+		font-size:1.8rem;
+		color:$off-black;
 	}
 }
 
@@ -15,7 +24,7 @@
 {
 	width: 100%;
 	height: 100vh;
-	background-color: green;
+	background-color: $hot-pink;
 }
 
 
@@ -33,6 +42,7 @@
 
 		& h3 
 		{
+			color:$off-white;
 			font-size: 2rem;
 		}
 
@@ -56,6 +66,71 @@
 		& .col 
 		{
 			width: 50%;
+			margin:0 2rem;
+		}
+
+		& .contactForm
+		{
+
+			& form ul.contactForm__container
+			{
+				list-style-type:none;
+				display:flex;
+				flex-flow:column nowrap;
+				justify-content:space-around;
+
+				& li
+				{
+					display:flex;
+					flex-flow:column nowrap;
+					margin:0.5rem 0;
+					
+					& label
+					{
+						font-size:1.4rem;
+						font-weight:bold;
+					}
+
+					& input,					
+					& textarea
+					{
+						margin:0 0.5rem;
+						width:100%;
+					}
+
+					& button 
+					{
+						margin:1rem;
+						color:$off-white;
+						background-color:$purple;
+						width:10rem;
+					}
+				}
+			}
+		}
+
+		& .customerSupport
+		{
+			& ul.customerSupport__container
+			{
+				list-style-type:none;
+
+				& li 
+				{
+					font-size:1.8rem;
+				}
+
+				& li a 
+				{
+					color:$off-white;
+					text-decoration:none;
+				}
+
+				& li a:hover
+				{
+					color:$purple;
+				}
+			}
 		}
 	}
 }

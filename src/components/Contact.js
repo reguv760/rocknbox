@@ -21,7 +21,7 @@ const Contact = () => {
   return (
     <section id="Contact" className="content">
       <div className="contact__grid">
-        <div className="col">
+        <div className="contactForm col">
           <h2>Contact Us!</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
@@ -33,21 +33,51 @@ const Contact = () => {
           <Form>
             {formApi => (
               <form onSubmit={formApi.submitForm} id="form1" className="mb-4">
-                <label htmlFor="hello">Hello World</label>
-                <Text field="hello" id="hello" validate={validate} />
-                <button type="submit" className="btn btn-primary">
-                  Submit
-                </button>
+                <ul className="contactForm__container">
+                  <li>
+                    <label htmlFor="contactForm__name">Name:</label>
+                    <Text
+                      field="Name"
+                      id="contactForm__name"
+                      validate={validate}
+                    />
+                  </li>
+                  <li>
+                    <label htmlFor="contactForm__email">Email:</label>
+                    <Text
+                      field="Email"
+                      id="contactForm__email"
+                      validate={validate}
+                    />
+                  </li>
+                  <li>
+                    <label htmlFor="contactForm__comment">Comments:</label>
+                    <textarea
+                      field="Comments"
+                      id="contactForm__comment"
+                      validate={validate}
+                      rows="3"
+                      cols="33"
+                      maxlength="200"
+                      wrap="hard"
+                    />
+                  </li>
+                  <li>
+                    <button type="submit" className="btn btn-primary">
+                      Submit
+                    </button>
+                  </li>
+                </ul>
               </form>
             )}
           </Form>
         </div>
-        <div className="col">
+        <div className="customerSupport col">
           <h2>Customer Support</h2>
-          <ul>
+          <ul className="customerSupport__container">
             <li>Phone: 1-800-111-1111</li>
             <li>
-              Email:{' '}
+              Email:
               <a href="mailto:customersupport@rocknbox.com">
                 customersupport@rocknbox.com
               </a>

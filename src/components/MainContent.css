@@ -5,13 +5,18 @@
 .container section h2 {
   font-size: 3.6rem;
   font-weight: bold;
-  margin: 2rem 1rem;
+  color: #f3ea5f;
+  letter-spacing: 0.025em;
+}
+.container section p {
+  font-size: 1.8rem;
+  color: #030303;
 }
 
 .container .currentTheme {
   width: 100%;
   height: 100vh;
-  background-color: green;
+  background-color: #d90287;
 }
 
 .container .content {
@@ -26,6 +31,7 @@
   margin: 1.5rem auto;
 }
 .container .content .questionAnswer h3 {
+  color: #eee;
   font-size: 2rem;
 }
 .container .content .questionAnswer blockquote {
@@ -42,4 +48,99 @@
 }
 .container .content .contact__grid .col {
   width: 50%;
+  margin: 0 2rem;
+}
+.container .content .contact__grid .contactForm form ul.contactForm__container {
+  list-style-type: none;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+}
+.container
+  .content
+  .contact__grid
+  .contactForm
+  form
+  ul.contactForm__container
+  li {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0.5rem 0;
+}
+.container
+  .content
+  .contact__grid
+  .contactForm
+  form
+  ul.contactForm__container
+  li
+  label {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.container
+  .content
+  .contact__grid
+  .contactForm
+  form
+  ul.contactForm__container
+  li
+  input,
+.container
+  .content
+  .contact__grid
+  .contactForm
+  form
+  ul.contactForm__container
+  li
+  textarea {
+  margin: 0 0.5rem;
+  width: 100%;
+}
+.container
+  .content
+  .contact__grid
+  .contactForm
+  form
+  ul.contactForm__container
+  li
+  button {
+  margin: 1rem;
+  color: #eee;
+  background-color: #c04df9;
+  width: 10rem;
+}
+.container
+  .content
+  .contact__grid
+  .customerSupport
+  ul.customerSupport__container {
+  list-style-type: none;
+}
+.container
+  .content
+  .contact__grid
+  .customerSupport
+  ul.customerSupport__container
+  li {
+  font-size: 1.8rem;
+}
+.container
+  .content
+  .contact__grid
+  .customerSupport
+  ul.customerSupport__container
+  li
+  a {
+  color: #eee;
+  text-decoration: none;
+}
+.container
+  .content
+  .contact__grid
+  .customerSupport
+  ul.customerSupport__container
+  li
+  a:hover {
+  color: #c04df9;
 }

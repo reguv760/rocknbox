@@ -7,13 +7,13 @@ import Login from './Login';
 const Navigation = () => {
   return (
     <nav>
-      <div class="logo">
+      <div className="logo">
         <img src={logo} alt="rocknbox logo" />
       </div>
 
       <Login />
 
-      <ul class="menu">
+      <ul className="menu">
         <li>
           <a href="#products">products</a>
         </li>
