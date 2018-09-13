@@ -10,7 +10,6 @@ import './footer.css';
 const FooterCSS = styled.footer`
   height: 20rem;
   width: 100%;
-  background-color: #030303;
 `;
 
 const Footer = () => {
@@ -19,10 +18,10 @@ const Footer = () => {
       <footer>
         <div class="footer__grid">
           <div class="col col1">
-            <Privacy />
+            <Return />
           </div>
           <div class="col col2">
-            <Return />
+            <Privacy />
           </div>
           <div class="col col3">
             <SocialMedia />

@@ -8,8 +8,18 @@ const textContainer = styled.div`
 
 const Return = () => {
   return (
-    <textContainer>
-      <p>Returns</p>
+    <textContainer className="footerCol">
+      <h3>Return Policy</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni ut
+        eveniet vel possimus velit unde nesciunt dolore natus fugiat magnam est
+        nobis quam tempora, reiciendis atque sunt vitae sit adipisci.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni ut
+        eveniet vel possimus velit unde nesciunt dolore natus fugiat magnam est
+        nobis quam tempora, reiciendis atque sunt vitae sit adipisci.
+      </p>
     </textContainer>
   );
 };

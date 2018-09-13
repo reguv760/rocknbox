@@ -8,8 +8,13 @@ const textContainer = styled.div`
 
 const Privacy = () => {
   return (
-    <textContainer>
-      <p>Privacy Policy</p>
+    <textContainer className="footerCol">
+      <h3>Privacy Policy</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni ut
+        eveniet vel possimus velit unde nesciunt dolore natus fugiat magnam est
+        nobis quam tempora, reiciendis atque sunt vitae sit adipisci.
+      </p>
     </textContainer>
   );
 };
