@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Navigation.css';
 import logo from './../assets/svg/rocknbox-logo.svg';
 
@@ -9,7 +8,7 @@ const Navigation = () => {
   return (
     <nav>
       <div class="logo">
-        <img src={logo} />
+        <img src={logo} alt="rocknbox logo" />
       </div>
 
       <Login />

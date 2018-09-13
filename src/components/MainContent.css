@@ -2,7 +2,6 @@
   padding-top: 8rem;
   min-height: 80vh;
 }
-
 .container section h2 {
   font-size: 3.6rem;
   font-weight: bold;
@@ -19,31 +18,28 @@
   width: 96%;
   margin: 0 auto;
   min-height: 60rem;
+  /* FAQ */
+  /* Contact */
 }
-
 .container .content .questionAnswer {
   width: 98%;
   margin: 1.5rem auto;
 }
-
 .container .content .questionAnswer h3 {
   font-size: 2rem;
 }
-
 .container .content .questionAnswer blockquote {
   font-size: 1.6rem;
   line-height: 1.4em;
   width: 96%;
   margin: 0 auto;
 }
-
 .container .content .contact__grid {
   display: flex;
   flex-flow: row nowrap;
   width: 95%;
   margin: 0 auto;
 }
-
 .container .content .contact__grid .col {
   width: 50%;
 }

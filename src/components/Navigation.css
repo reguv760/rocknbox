@@ -1,35 +1,21 @@
 nav {
   width: 100%;
-  background-color: #060606;
+  background-color: #030303;
   font-size: 1.4rem;
   position: fixed;
-
   display: grid;
-  grid-template-columns: 1fr 45rem; /*45rem = width of right hand area */
-  grid-template-rows: 6rem 1fr; /* 6rem = height of logo */
-  grid-template-areas:
-    'logo   	 	newsletter'
-    'logo 		menu';
+  grid-template-columns: 1fr 45rem;
+  /*45rem = width of right hand area */
+  grid-template-rows: 6rem 1fr;
+  /* 6rem = height of logo */
+  grid-template-areas: 'logo   	 	newsletter' 'logo 		menu';
 }
-
 nav .logo {
   width: 40rem;
   height: 100%;
   margin: 0 1rem;
   grid-area: logo;
 }
-
-nav .newsletter {
-  margin: 0;
-  padding: 0;
-  color: #fff;
-  grid-area: newsletter;
-}
-
-nav .newsletter h2 {
-  font-size: 2rem;
-}
-
 nav ul.menu {
   display: flex;
   flex-flow: row nowrap;
@@ -39,7 +25,6 @@ nav ul.menu {
   grid-area: menu;
   width: 100%;
 }
-
 nav ul.menu li {
   margin: 0 1rem;
   height: 2rem;
@@ -48,12 +33,10 @@ nav ul.menu li {
   text-align: right;
   background-color: #333;
 }
-
 nav ul.menu li a {
   color: #efefef;
   text-decoration: none;
 }
-
 nav ul.menu li a:hover {
   cursor: pointer;
   color: #663300;

@@ -15,26 +15,17 @@ const FooterCSS = styled.footer`
 const Footer = () => {
   return (
     <FooterCSS>
-      <footer>
-        <div class="footer__grid">
-          <div class="col col1">
-            <Return />
-          </div>
-          <div class="col col2">
-            <Privacy />
-          </div>
-          <div class="col col3">
-            <SocialMedia />
-          </div>
+      <div className="footer__grid">
+        <div className="col col1">
+          <Return />
         </div>
-
-        {/* external links 
-			<ul class="footer__links">
-				<li><Link to="/privacy" component={Privacy}>Privacy Policy</Link></li>
-				<li><Link to="#">Return Policy</Link></li>
-				<li><Link to="#">Contact us</Link></li>
-			</ul> */}
-      </footer>
+        <div className="col col2">
+          <Privacy />
+        </div>
+        <div className="col col3">
+          <SocialMedia />
+        </div>
+      </div>
     </FooterCSS>
   );
 };

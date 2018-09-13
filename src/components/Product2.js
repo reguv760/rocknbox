@@ -7,50 +7,13 @@ const ProductsCSS = styled.div`
   padding: 2rem 0;
 `;
 
-const TheProductCSS = styled.div`
-  display: flex;
-  flex-flow: row nowrap;
-  width: 92%;
-  margin: 4rem auto;
-  background-color: blue;
-  min-height: 25rem;
-  border-radius: 0.5rem;
-`;
-
-const ProductIMG = styled.div`
-  width: 40rem;
-  height: 25rem;
-  margin: 1rem;
-  background-color: #993300;
-`;
-
-const ProductsDesc = styled.div`
-  padding: 1rem;
-  font-size: 1.6rem;
-  line-height: 1.4em;
-  width: 100%;
-  height: 100%;
-  color: #eee;
-`;
-
-const ProductBuyButton = styled.div`
-  color: #eee;
-  background-color: #d90287;
-  border-radius: 0.5rem;
-  width: 12rem;
-  margin: 1rem;
-  padding: 1rem;
-  font-size: 1.6rem;
-  font-weight: bold;
-  letter-spacing: 0.025em;
-`;
-
 const Product2 = () => {
   return (
     <ProductsCSS>
-      <TheProductCSS>
-        <ProductIMG />
-        <ProductsDesc>
+      <div className="product">
+        <div className="product__image" />
+
+        <div className="product__desc">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
             delectus placeat deleniti, rerum maiores temporibus, velit possimus
@@ -67,10 +30,10 @@ const Product2 = () => {
           </ul>
 
           <a href="#">
-            <ProductBuyButton>purchase now!</ProductBuyButton>
+            <div className="product__buyButton">purchase now!</div>
           </a>
-        </ProductsDesc>
-      </TheProductCSS>
+        </div>
+      </div>
     </ProductsCSS>
   );
 };

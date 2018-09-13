@@ -2,7 +2,7 @@ import React from 'react';
 import Product1 from './Product1';
 import Product2 from './Product2';
 import Product3 from './Product3';
-import './products.css';
+import './Products.css';
 
 const Products = () => {
   return (

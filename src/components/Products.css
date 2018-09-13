@@ -1,6 +1,3 @@
-.container .products {
-}
-
 .container .products .product {
   display: flex;
   flex-flow: row nowrap;
@@ -8,47 +5,40 @@
   margin: 4rem auto;
   background-color: blue;
   min-height: 25rem;
+  border-radius: 0.5rem;
 }
-
 .container .products .product .product__image {
   width: 40rem;
   height: 25rem;
+  margin: 1rem;
   background-color: #993300;
+  align-self: center;
 }
-
 .container .products .product .product__desc {
   padding: 1rem;
   font-size: 1.6rem;
   line-height: 1.4em;
   width: 100%;
   height: 100%;
-  background-color: #3399cc;
+  color: #eee;
 }
-
 .container .products .product ul.product__content {
   list-style-type: circle;
 }
-
 .container .products .product ul.product__content li {
   font-size: 2rem;
   margin: 0.5rem 0;
 }
-
 .container .products .product ul.product__content li.exclusive {
   font-weight: bold;
 }
 
-.container .products .product a {
-  color: #efefef;
+.container .products a {
   text-decoration: none;
 }
-
-.container .products .product a:hover {
-  color: #ccc;
-}
-
-.container .products .product .product__buyButton {
-  background-color: #222;
+.container .products a .product__buyButton {
+  color: #eee;
+  background-color: #d90287;
   border-radius: 0.5rem;
   width: 12rem;
   margin: 1rem;
@@ -56,4 +46,8 @@
   font-size: 1.6rem;
   font-weight: bold;
   letter-spacing: 0.025em;
+  text-decoration: none;
+}
+.container .products a .product__buyButton:hover {
+  color: #d96999;
 }
