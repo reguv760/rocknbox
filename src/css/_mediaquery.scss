@@ -1,0 +1,31 @@
+@media (max-width: $mobileRes) 
+{
+  
+}
+
+
+/* only display if browser width is less than */
+@media (max-width: $tabletRes) 
+{
+
+	nav 
+	{
+		grid-template-areas:
+		'logo   	logo'
+		'login 		menu';
+	}
+
+	.container .content 
+	{
+
+		& .whatRock__container
+		{		
+			flex-flow:row wrap;
+
+			&-col
+			{
+				width:96%;
+			}
+		}
+	}
+}

@@ -6,12 +6,14 @@ import './Products.css';
 
 const Products = () => {
   return (
-    <section id="products" className="products">
+    <section id="products" className="content">
       <h2>AVAILABLE BOXES</h2>
 
-      <Product1 />
-      <Product2 />
-      <Product3 />
+      <div className="products">
+        <Product1 />
+        <Product2 />
+        <Product3 />
+      </div>
     </section>
   );
 };

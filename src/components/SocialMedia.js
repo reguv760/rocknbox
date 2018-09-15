@@ -35,7 +35,7 @@ const SocialMedia = () => {
               color="#efefef"
               style={{ height: 25, width: 25 }}
             />
-            <p>Share your collection with us!</p>
+            <p>Share your collection!</p>
           </li>
         </ul>
       </div>

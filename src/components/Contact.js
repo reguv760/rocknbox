@@ -85,28 +85,33 @@ const Contact = () => {
           </ul>
 
           <h2>Legal</h2>
-          <p class="legal">
-            {' '}
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            veritatis eius nihil possimus vel reprehenderit officia dignissimos,
-            maiores quod necessitatibus non quae, commodi, ad consequatur unde
-            illum eum minus quibusdam.
+          <p className="legal">
+            Sed consequat, erat a scelerisque laoreet, risus ante suscipit
+            massa, quis laoreet ex leo non odio. Praesent tristique erat id arcu
+            vestibulum sodales. Curabitur sit amet posuere ligula.
           </p>
-
-          <p class="legal">
-            {' '}
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            veritatis eius nihil possimus vel reprehenderit officia dignissimos,
-            maiores quod necessitatibus non quae, commodi, ad consequatur unde
-            illum eum minus quibusdam.
+          <p className="legal">
+            Praesent velit sapien, lobortis quis lorem eget, luctus suscipit
+            magna. Curabitur ante elit, bibendum sit amet fermentum et, mollis
+            vitae lacus.
           </p>
-
-          <p class="legal">
-            {' '}
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            veritatis eius nihil possimus vel reprehenderit officia dignissimos,
-            maiores quod necessitatibus non quae, commodi, ad consequatur unde
-            illum eum minus quibusdam.
+          <p className="legal">
+            Vivamus vestibulum mauris et felis rutrum, id condimentum dui
+            dignissim. Morbi laoreet eget enim eu rutrum.
+          </p>
+          <p className="legal">
+            Fusce vitae fringilla risus. Nunc condimentum libero ac ex auctor,
+            consequat porttitor sem vestibulum. Phasellus sollicitudin congue
+            tortor, eu interdum dui laoreet non.
+          </p>
+          <p className="legal">
+            Mauris vitae libero at augue ultricies ullamcorper et eget lorem.
+            Quisque sit amet magna nec quam imperdiet dictum. Proin maximus eget
+            nibh ut vehicula.
+          </p>
+          <p className="legal">
+            Sed lobortis, ipsum nec convallis rutrum, mi nisl sollicitudin
+            lectus, a faucibus orci mi a dolor.
           </p>
         </div>
       </div>

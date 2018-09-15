@@ -8,7 +8,7 @@ nav {
   /*45rem = width of right hand area */
   grid-template-rows: 8rem 1fr;
   /* 6rem = height of logo */
-  grid-template-areas: 'logo   	 	newsletter' 'logo 		menu';
+  grid-template-areas: 'logo   	login' 'logo 		menu';
 }
 nav .logo {
   width: 40rem;
@@ -40,4 +40,16 @@ nav ul.menu li a {
 nav ul.menu li a:hover {
   cursor: pointer;
   color: #663300;
+}
+/* only display if browser width is less than */
+@media (max-width: 600px) {
+  nav {
+    grid-template-areas: 'logo   	logo' 'login 		menu';
+  }
+  .container .content .whatRock__container {
+    flex-flow: row wrap;
+  }
+  .container .content .whatRock__container-col {
+    width: 96%;
+  }
 }

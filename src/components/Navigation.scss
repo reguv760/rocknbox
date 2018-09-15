@@ -11,7 +11,7 @@ nav
 	grid-template-columns: 1fr 45rem; /*45rem = width of right hand area */
 	grid-template-rows: 8rem 1fr; /* 6rem = height of logo */
 	grid-template-areas:
-	'logo   	 	newsletter'
+	'logo   	login'
 	'logo 		menu';
 
 	& .logo 
@@ -56,3 +56,5 @@ nav
 		}	
 	}
 }
+
+@import './../css/_mediaquery.scss';

@@ -26,6 +26,27 @@
   /* FAQ */
   /* Contact */
 }
+.container .content .whatRock__container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+.container .content .whatRock__container-col {
+  width: 50%;
+  margin: 0 1rem;
+}
+.container .content .whatRock__container-col h2 {
+  font-size: 2.4rem;
+  color: #030303;
+}
+.container .content .whatRock__container-col h3 {
+  font-size: 2.4rem;
+  color: #333;
+}
+.container .content .whatRock__container-col p {
+  font-size: 1.4rem;
+  line-spacing: 1.4em;
+}
 .container .content .questionAnswer {
   width: 98%;
   margin: 1.5rem auto;
@@ -147,4 +168,17 @@
 .container .content .contact__grid .customerSupport p.legal {
   font-size: 1.2rem;
   margin: 1rem 0;
+}
+
+/* only display if browser width is less than */
+@media (max-width: 600px) {
+  nav {
+    grid-template-areas: 'logo   	logo' 'login 		menu';
+  }
+  .container .content .whatRock__container {
+    flex-flow: row wrap;
+  }
+  .container .content .whatRock__container-col {
+    width: 96%;
+  }
 }

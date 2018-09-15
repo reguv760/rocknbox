@@ -1,6 +1,7 @@
 import React from 'react';
 
 //pages
+import WhatRock from './WhatsRocknbox.js';
 import Products from './Products.js';
 import About from './About.js';
 import Contact from './Contact.js';
@@ -14,6 +15,7 @@ const MainContent = () => {
     <div className="container">
       <section className="currentTheme" />
 
+      <WhatRock />
       <Products />
       <Faq />
       <About />
